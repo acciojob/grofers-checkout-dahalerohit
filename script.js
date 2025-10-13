@@ -7,7 +7,7 @@ const getSum = () => {
 //Add your code 
 
 
-	let pricesall = document.querySelectorAll(".prices");
+	let pricesall = document.querySelectorAll(".price");
 
 let total = 0;
   pricesall.forEach(pricecell => {
