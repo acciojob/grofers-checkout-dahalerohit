@@ -3,7 +3,7 @@ getSumBtn.textContent = "Get Total Price";
 document.body.appendChild(getSumBtn);
 
 const getSum = () => {
-  const pricesall = document.querySelectorAll(".prices");
+  const pricesall = document.querySelectorAll(".price");
   let total = 0;
 
   pricesall.forEach(pricecell => {
